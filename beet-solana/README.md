@@ -22,7 +22,7 @@ beet.read(buf, 0) // same as generatedKey
 ### PublicKey as part of a Struct Configuration
 
 ```ts
-import * as web3 from '@solana/web3.js'
+import * as web3 from '@safecoin/web3.js'
 import * as beet from '@metaplex-foundation/beet'
 import * as beetSolana from '@metaplex-foundation/beet-solana'
 

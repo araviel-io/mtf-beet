@@ -1,5 +1,5 @@
 {
-  "name": "@metaplex-foundation/beet-solana",
+  "name": "@araviel/mtf-beet-safecoin",
   "version": "0.1.1",
   "description": "Solana specific extension for beet, the borsh compatible de/serializer",
   "sideEffects": false,
@@ -35,8 +35,8 @@
     "dist/types/src/*"
   ],
   "dependencies": {
-    "@metaplex-foundation/beet": ">=0.1.0",
-    "@solana/web3.js": "^1.31.0"
+    "@araviel/mtf-beet": ">=0.1.0",
+    "@safecoin/web3.js": "file:../../safecoin-web3.js"
   },
   "devDependencies": {
     "@types/node": "^14.18.0",

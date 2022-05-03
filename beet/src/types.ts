@@ -6,7 +6,7 @@ import { strict as assert } from 'assert'
  *
  * @private
  */
-export const BEET_PACKAGE = '@metaplex-foundation/beet'
+export const BEET_PACKAGE = '@araviel/mtf-beet'
 
 /**
  * Base Beet type.

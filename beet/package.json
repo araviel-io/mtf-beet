@@ -1,5 +1,5 @@
 {
-  "name": "@metaplex-foundation/beet",
+  "name": "@araviel/mtf-beet",
   "version": "0.1.0",
   "description": "Strict borsh compatible de/serializer",
   "sideEffects": false,
