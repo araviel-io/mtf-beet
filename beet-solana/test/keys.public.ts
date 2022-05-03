@@ -1,4 +1,4 @@
-import { FixedSizeBeet } from '@metaplex-foundation/beet'
+import { FixedSizeBeet } from '@araviel/mtf-beet'
 import { PublicKey, Keypair } from '@safecoin/web3.js'
 import { publicKey } from '../src/beet-solana'
 import test from 'tape'

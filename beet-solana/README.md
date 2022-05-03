@@ -1,4 +1,4 @@
-# @metaplex-foundation/beet-solana
+# @araviel/mtf-beet-solana
 
 Solana specific extension for beet, the borsh compatible de/serializer
 
@@ -11,7 +11,7 @@ Please find the [API docs here](https://metaplex-foundation.github.io/beet/docs/
 ### Using PublicKey Directly
 
 ```ts
-import { publicKey } from '@metaplex-foundation/beet-solana'
+import { publicKey } from '@araviel/mtf-beet-solana'
 
 const generatedKey  = Keypair.generate().publicKey
 const buf = Buffer.alloc(publicKey.byteSize)
@@ -23,8 +23,8 @@ beet.read(buf, 0) // same as generatedKey
 
 ```ts
 import * as web3 from '@safecoin/web3.js'
-import * as beet from '@metaplex-foundation/beet'
-import * as beetSolana from '@metaplex-foundation/beet-solana'
+import * as beet from '@araviel/mtf-beet'
+import * as beetSolana from '@araviel/mtf-beet-solana'
 
 type InstructionArgs = {
   authority: web3.PublicKey
